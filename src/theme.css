@@ -1,49 +1,34 @@
+
+
 body {
-    color: black;
-    font-family: 'Source Sans Pro', sans-serif;
+    padding: 20px;
 }
- h1{
-    text-align: center;
- }
- 
-#top-nav #top-nav-left {
-    float: left;
+
+nav {
+    background-color: #FFF;
+}
+
+a{
     text-decoration: none;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    
 }
- #top-nav #login {
-    width: 25px;
- }
 
- #top-nav {
-    overflow: hidden;
-    background-color:#e7e9eb !important;
-    width: auto;
- }
+p {
+    padding: 30px;
+    position: absolute;
 
- #top-nav a {
+}
+
+
+.right {
     float: right;
-    padding-top: 7px;
-    padding-right: 15px;
-    padding-left: 5px;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-
- }
-#main {
-    background-color: white;
-    overflow: hidden;
-}
-#main #main-vbox {
-    width: 480px;
-    height: 330px;
-    border-radius: 25px;
-    margin: 10px;
+    padding: 15px;
 }
 
-#main-p {
-    text-align: center;
+.left {
+    float: left;
+}
+
+.svg {
+    width: 40px;
+    height: 50px;
 }
