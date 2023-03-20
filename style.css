@@ -5,7 +5,7 @@
 }
 body{ font-family:Arial, Helvetica, sans-serif; background:#FFF; margin:0px;}
 .m30_auto{ margin:30px auto;}
-.main{ width:1024px;}
+.main{ width:auto;}
 .clearfix{ clear:both;}
 
 /*********** Start Header (or) Menu **********/
