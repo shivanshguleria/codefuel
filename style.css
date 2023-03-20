@@ -24,8 +24,8 @@ body{ font-family:Arial, Helvetica, sans-serif; background:#FFF; margin:0px;}
 /************* Start Slider (or) Banner *************/
 .banner{ width:1024px; background:url(../imges/slider-bg.jpg); height:293px; float:left; }
 .banner-links{ font-family:Arial, Helvetica, sans-serif; padding:145px 20px 50px;}
-.banner-links a{font-size:26px; padding:0px 20px; text-decoration:none; color:#FFF; font-weight:600;}
-.banner-links a:hover{ color:#000;}
+.banner-links a{font-size:26px; padding:0px 20px; text-decoration:none; color:#000; font-weight:600;}
+.banner-links a:hover{ color:#fff;}
 /************** End Slider (or) Banner *************/
 
 /*************** Start Content *****************/	
