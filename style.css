@@ -44,7 +44,7 @@ body{ font-family:Arial, Helvetica, sans-serif; background:#FFF; margin:0px;}
 
 /************ Start Testimonials ************/
 .testimonials{ width:1024px; background:url(../imges/testimonials-bg.jpg); height:309px; float:left; }
-.testimonials-h4{ font-size:26px; line-height:46px; padding:80px 100px; color:#FFF; text-align:center;}
+.testimonials-h4{ font-size:26px; line-height:46px; padding:80px 100px; color:#020202; text-align:center;}
 .testimonials a{ color:#CCC; font-size:18px; padding:20px 0px; text-align:center; text-decoration:none;}
 .testimonials a:hover{ color:#FFF;}
 /************ End Testimonials ************/
