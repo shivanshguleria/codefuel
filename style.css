@@ -9,7 +9,7 @@ body{ font-family:Arial, Helvetica, sans-serif; background:#FFF; margin:0px;}
 .clearfix{ clear:both;}
 
 /*********** Start Header (or) Menu **********/
-.header{width:1024px; float:left; border-top:7px solid #0066dd; background:#F2F2F2;}
+.header{width:1024px; float:left; border-top:7px solid #4a65a7; background:#F2F2F2;}
 .header-left{ width:250px; float:left;}
 .header-right{ 	width:774px; float:left;}
 .header-right ul{list-style:none;}
@@ -18,7 +18,7 @@ body{ font-family:Arial, Helvetica, sans-serif; background:#FFF; margin:0px;}
 	margin:5px 0px 12px; float:left; font-weight:bold;
 }
 .header-right ul li a{ padding:5px 20px 10px; margin:2px 0px 5px; text-decoration:none; color:#000;}
-.header-right ul li a:hover{ color:#0099dd;}
+.header-right ul li a:hover{ color:#4a65a7;}
 /*********** End Header (or) Menu **********/
 	
 /************* Start Slider (or) Banner *************/
@@ -33,8 +33,8 @@ body{ font-family:Arial, Helvetica, sans-serif; background:#FFF; margin:0px;}
 .content-left{ width:458px; height:auto; float:left; text-align:justify; padding:0px 20px; line-height:24px;}
 .content-right{ width:440px; height:auto; float:left; padding:0px 20px 0px 60px;}
 .content-header{color:#000; font-size:26px; text-align:center; padding:25px 10px 15px;}
-.content-header a{ color:#0099dd; text-decoration:none;}
-.content-header a:hover{ color:#069;}
+.content-header a{ color:#4a65a7; text-decoration:none;}
+.content-header a:hover{ color:#4a65a7;}
 
 .content-bottom-boxes{ width:300px; float:left; padding:0px 20px; color:#000;}
 .content-bottom-bg{ background:#ebebeb; float:left; padding:20px 15px;}
@@ -57,7 +57,7 @@ body{ font-family:Arial, Helvetica, sans-serif; background:#FFF; margin:0px;}
 .footer-parts ul li{list-style:none; font-size:12px; padding:5px; margin:5px 0px; font-weight:bold;}
 .footer-parts ul li a{padding:8px 10px; margin:2px 0px; text-decoration:none; color:#000;}
 .footer-parts ul li a:hover{color:#FFF;}
-.copyrights{ width:964px; font-size:12px; background:#0099dd; float:left; padding:15px 30px 15px 30px; color:#FFF; }
+.copyrights{ width:964px; font-size:12px; background:#4a65a7; float:left; padding:15px 30px 15px 30px; color:#FFF; }
 .copyrights-left{ width:664px; float:left;}
 .copyrights-left a{ color:#FFF; text-decoration:none;}
 .copyrights-left a:hover{color:#CCC;}
