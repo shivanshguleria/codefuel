@@ -6,6 +6,7 @@
 body{ font-family:Arial, Helvetica, sans-serif; background:#FFF; margin:0px;}
 .m30_auto{ margin:30px auto;}
 .clearfix{ clear:both;}
+.main{width: 1024px;}
 
 /*********** Start Header (or) Menu **********/
 .header{width:1024px; float:left; border-top:7px solid #4a65a7; background:#F2F2F2;}
@@ -81,10 +82,11 @@ input[type=text], input[type=password] {
   
   /* Set a style for all buttons */
   button {
-	background-color: #04AA6D;
+	background-color: #4a65a7;
 	color: white;
-	padding: 14px 20px;
-	margin: 8px 0;
+	padding: 10px 20px;
+	margin: -5px;
+   
 	border: none;
 	cursor: pointer;
 	width: 100%;
