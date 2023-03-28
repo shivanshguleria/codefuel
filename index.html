@@ -1,8 +1,9 @@
 <html>
 <head>
 <title>CODE FUEL</title>
-<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="styles.css" />
 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+ <script defer src="login.js"></script>
 </head>
 <body>
 
@@ -27,56 +28,23 @@
 </div>
 <!----- End Header (or) Menu ------>
 
-
 <div id="id01" class="modal">
-  
-  <form class="modal-content animate" action="/action_page.php" method="post">
-    <div class="imgcontainer">
-      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-    </div>
-
-    <div class="container">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" id='uname' required>
-
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" id = 'pwd' required>
+    <main id="main-holder">
+        <h1 id="login-header">Login</h1>
         
-      <button type="submit">Login</button>
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
-    </div>
+        <div id="login-error-msg-holder">
+          <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+        </div>
+        
+        <form id="login-form">
+          <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+          <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+          <input type="submit" value="Login" id="login-form-submit">
+        </form>
+      
+      </main>
+  </div>
 
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>
-  </form>
-</div>
-
-<script>
-// Get the modal
-var modal = document.getElementById('id01');
-var uname = document.getElementById('uname');
-var pwd = document.getElementById('pwd');
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-
-window.onclick = function(event) {
-if (uname === 'test' && pwd === "123") {
-        function Redirect() {
-               window.location.assign("https://www.tutorialspoint.com");
-    };
-
-}
-}
-</script>
 
 
 <!----- Start Slider (or) Banner ------>
@@ -184,3 +152,4 @@ if (uname === 'test' && pwd === "123") {
 
 </body>
 </html>
+
