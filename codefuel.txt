@@ -1,0 +1,15 @@
+Pages
+    /login
+    /signup
+    /setting
+    /:course/:video
+    /course
+    /
+    /review
+    /about
+    /future
+    /contactus
+    /creater
+        /upload course
+
+        

@@ -1,0 +1,52 @@
+doctype html
+html
+  head
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  link(href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous")
+  link(rel='stylesheet', href='/stylesheets/style.css')
+  title= title 
+  body
+  
+  nav.navbar.navbar-light.bgd-color
+   div.container-fluid
+    span.navbar-brand.mb-0.brand-color codeFuel 
+    span.d-flex.justify-content-md-end
+     a(class="btn btn-bd-primary border-2 rounded-1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false") Menu 
+     ul.dropdown-menu.dropdown-menu-end
+      li 
+       a(class="dropdown-item" href="/coures") Courses
+      li 
+       a(class="dropdown-item" href="/review") Review
+      li 
+       a(class="dropdown-item" href="/about") About  
+      li 
+       a(class="dropdown-item" href="/contactus") Contact us
+      li
+       hr.dropdown-divider
+      li
+       a(class="dropdown-item" href="/Login") Login
+       
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
+  block content
+  <div class="container-fluid fixed-bottom">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+     <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="d-flex align-items-center md-4 link-body-emphasis text-decoration-none">
+       img(class="bi" src="logo.svg", alt="logo" width="70" height="55")
+      </a>
+      <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2023 Company, Inc</span>
+     </div>
+
+    ul.nav.col-md-4.justify-content-end
+      li.nav-item
+        a.nav-link.px-2.text-body-secondary(href="/review") Review
+      li.nav-item
+        a.nav-link.px-2.text-body-secondary(href="/about") About
+      li.nav-item
+        a.nav-link.px-2.text-body-secondary(href="/faq") FAQs
+      li.nav-item
+        a.nav-link.px-2.text-body-secondary(href="/contactus") Contact us
+    </footer>
+  </div>
+
