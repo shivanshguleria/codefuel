@@ -1,9 +1,9 @@
 const index = function(req, res, next) {
-    res.render('index', { title: 'Express' });
+    res.render('index', { title: 'index' });
   };
 
 const login = function(req, res, next) {
-    res.render('index', { title: 'Express' });
+    res.render('login', { title: 'login' });
   };
 
 const signup = function(req, res, next) {

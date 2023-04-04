@@ -59,3 +59,7 @@ typings/
 
 # next.js build output
 .next
+
+/viewsExamples
+
+/app_server/views/1.pug
