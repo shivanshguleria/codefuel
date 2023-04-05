@@ -7,7 +7,7 @@ const login = function(req, res, next) {
   };
 
 const signup = function(req, res, next) {
-    res.render('index', { title: 'Express' });
+    res.render('signup', { title: 'sign up' });
   };
 
 const users = function(req, res, next) {
@@ -19,7 +19,7 @@ const course = function(req, res, next) {
   };
 
 const review = function(req, res, next) {
-    res.render('index', { title: 'Express' });
+    res.render('review', { title: 'review' });
   };
 
 const about = function(req, res, next) {
