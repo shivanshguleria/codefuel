@@ -1,36 +1,26 @@
 extends layout 
 block content  
- <main class="form-signin w-100 mx-auto" style="width: 300+px;">
-  <form>
-   <div class="form-floating mb-3">
-     <input type="text" class="form-control" id="floatingInput" placeholder="text text">
-     <label for="floatingInput">Your name</label>
-   </div>
-   <div class="form-floating mb-3">
-     <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-     <label for="floatingInput">Email address</label>
-   </div>
-    <div class="form-floating mb-3">
-     <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-     <label for="floatingPassword">Password</label>
-    </div>
-    <div class="form-floating mb-3">
-     <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-     <option selected>Select</option>
-     <option value="1">Learner</option>
-     <option value="2">Creator</option>
-     </select>
-     <label class="h6" for="floatingSelect">Role</label>
-    </div>
-    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
-    <div class="mb-3 container">
-      <label class = "justify-content-end d-flex mt-1">
-       span
-        a(href="/login") Login
-      </label>
-    </div>
-   </form>
- </main>
-
+ main.form-signin.w-100.mx-auto(style="width: 300+px;")
+      form
+        .form-floating.mb-3
+          input#floatingInput.form-control(type="text", placeholder="text text")
+          label(for="floatingInput") Your name
+        .form-floating.mb-3
+          input#floatingInput.form-control(type="email", placeholder="name@example.com")
+          label(for="floatingInput") Email address
+        .form-floating.mb-3
+          input#floatingPassword.form-control(type="password", placeholder="Password")
+          label(for="floatingPassword") Password
+        .form-floating.mb-3
+          select#floatingSelect.form-select(aria-label="Floating label select example")
+            option(selected) Select
+            option(value="1") Learner
+            option(value="2") Creator
+          label.h6(for="floatingSelect") Role
+        button.w-100.btn.btn-lg.btn-primary(type="submit") Sign up
+        .mb-3.container
+          label.justify-content-end.d-flex.mt-1
+           span
+            a(href="/login") Login
 
  

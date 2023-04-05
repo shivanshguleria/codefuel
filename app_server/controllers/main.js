@@ -23,7 +23,7 @@ const review = function(req, res, next) {
   };
 
 const about = function(req, res, next) {
-    res.render('index', { title: 'Express' });
+    res.render('about', { title: 'About' });
   };
 
 const future = function(req, res, next) {

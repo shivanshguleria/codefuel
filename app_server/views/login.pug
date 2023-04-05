@@ -1,28 +1,22 @@
 extends layout 
 block content
- <main class="form-signin w-100 mx-auto" style="width: 200px;">
-  <form>
-    <div class="form-floating">
-      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-      <label for="floatingInput">Email address</label>
-    </div>
-    <div class="form-floating">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-      <label for="floatingPassword">Password</label>
-    </div>
+ main.form-signin.w-100.mx-auto(style="width: 200px;")
+  form
+        .form-floating
+          input#floatingInput.form-control(type="email", placeholder="name@example.com")
+          label(for="floatingInput") Email address
+        .form-floating
+          input#floatingPassword.form-control(type="password", placeholder="Password")
+          label(for="floatingPassword") Password
+        .checkbox.mb-3.container
+          label
+            input(type="checkbox", value="remember-me")
+            | Remember me
+          label.justify-content-end
+           span
+            a(href="/signup") Sign Up
+        button.w-100.btn.btn-lg.btn-primary(type="submit") Sign in
 
-    <div class="checkbox mb-3 container">
-      <label>
-        <input type="checkbox" value="remember-me"> Remember me
-      </label>
-      <label class = "justify-content-end">
-       span
-        a(href="/signup") Sign Up
-      </label>
-    </div>
-    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
-  </form>
- </main>
 
 
  
