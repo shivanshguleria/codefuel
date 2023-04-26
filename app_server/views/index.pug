@@ -14,7 +14,7 @@ block content
             h1 React State Management
             p Modern web applications demand efficient and easy-to-use state management solutions that don't compromise on flexibility or performance
             p 
-              a.btn.btn-lg.btn-primary(href="#") Sign Up Today 
+              a.btn.btn-lg.btn-primary(href="#") View
       .carousel-item 
         img.bd-placeholder-img(width="100%" height="100%" src="https://i.ibb.co/kJK6fB1/cpp31.png" alt="sd")
         .container 
@@ -22,15 +22,15 @@ block content
             h1 Learn C/C++
             p This course provide wide variety of C/C++ tutorials
             p
-              a(class="btn btn-lg btn-primary" href="#") Sign up today
+              a(class="btn btn-lg btn-primary" href="#") View
       .carousel-item 
-        svg(class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false")
-          rect(width="100%"  height="100%" fill="var(--bs-secondary-color)")
+        img.bd-placeholder-img(width="100%" height="100%" src="https://i.ibb.co/9skXNV8/golang.png" alt="sd")
         .container 
           .carousel-caption.text-start 
-            h1 Example 
-            p 
-              a(class="btn btn-lg btn-primary" href="#") Sign up today
+            h1.fontblack learn Go lang in 7hrs
+            p.fontblack by Freecode camp
+            p
+              a(class="btn btn-lg btn-primary" href="#") View
       button.carousel-control-prev(type="button" data-bs-target="#myCarousel" data-bs-slide="prev")
         span.carousel-control-prev-icon(aria-hidden = "true")
         span.visually-hidden Previous 
@@ -40,18 +40,15 @@ block content
   .album.py-5.bg-body-tertiary 
     .container 
       .row.row-cols-1.row-cols-sm-2.row-cols-md-3.g-3 
-        - var n = 0;
-            while n <= 8
-              .col 
-                .card.shadow-sm 
-                  svg.bd-placeholder-img.card-img-top(width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false")
-                    title Placeholder
-                    rect(width="100%" height="100%" fill="#55595c")
-                    text(x="50%" y="50%" fill="#eceeef" dy=".3em") Thumbnail
-                  .card-body 
-                    p.card-text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                    .d-flex.justify-content-between.align-items-center
-                      .btn-group 
-                        button(type="button" class="btn btn-sm btn-outline-secondary") View 
-                        button(type="button" class="btn btn-sm btn-outline-secondary") Edit 
-                      small.text-body-secondary= n++  
+        each thumbnails in thumbnail
+          .col 
+            .card.shadow-sm 
+              img.bd-placeholder-img.rounded.image-thumbnail(width="100%" height="100%" src= thumbnails.thumbnail alt="sd")
+              .card-body 
+                p.card-text= thumbnails.title
+                p.small= thumbnails.author
+                p.card-text= thumbnails.body
+                .d-flex.justify-content-between.align-items-center
+                  .btn-group 
+                    a.btn.btn-sm.btn-outline-secondary(href= thumbnails.link  role="button" aria-disabled="true") View
+                  small.text-body-secondary= thumbnails.time

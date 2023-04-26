@@ -20,7 +20,5 @@ router.get('/future', ctrl.future);
 
 router.get('/contactus', ctrl.contactus);
 
-router.get('/creater', ctrl.creater);
-
-router.get('/creater/uploadcourse', ctrl.upload);
+router.get('/courseview', ctrl.courseView);
 module.exports = router;

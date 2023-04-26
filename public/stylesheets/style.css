@@ -49,7 +49,9 @@
     z-index: 10;
     color: white !important;
   }
-  
+  .fontblack{
+    color: black !important;
+  }
   /* Declare heights because of positioning of img element */
   .carousel-item {
     height: 32rem;
@@ -168,3 +170,12 @@
     border-top-right-radius: 0;
   }
   
+.row-column {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+.item {
+  order: 2;
+}
