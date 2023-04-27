@@ -101,9 +101,6 @@ const contactus = function(req, res, next) {
     res.render('index', { title: 'Express' });
   };
 
-const courseView = function(req, res, next) {
-    res.render('courseview', { title: 'Express' });
-  };
 
 const upload = function(req, res, next) {
     res.render('index', { title: 'Express' });
@@ -111,5 +108,5 @@ const upload = function(req, res, next) {
 
 
 module.exports = {
-    index, login , signup, users, course, review, about, future, contactus, courseView, upload
+    index, login , signup, users, course, review, about, future, contactus,  upload
 }

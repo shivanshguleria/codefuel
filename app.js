@@ -22,16 +22,8 @@ app.use(lessMiddleware(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use('/login', indexRouter);
-app.use('/signup', indexRouter);
-app.use('/users', indexRouter);
-app.use('/course', indexRouter);
-app.use('/review', indexRouter);
-app.use('/about', indexRouter);
-app.use('/future', indexRouter);
-app.use('/contactus', indexRouter);
-app.use('/creater', indexRouter);
-app.use('/creater/uploadcourse', indexRouter);
+
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));

@@ -4,24 +4,20 @@ block content
     .p-4.m-3.bg-body-tertiary.rounded-2
       .container-fluid
         .d-flex.flex-row.m-3.justify-content-between
-            <iframe class="m-2 d-flex justify-content-start rounded" width="702" height="400" src="https://www.youtube.com/embed/xr6uZDRTna0" title="Web Applications for Everybody Course - Dr. Chuck Teaches HTML, PHP, SQL, CSS, JavaScript, and more!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-            <div class="card-body w-50 d-flex justify-content-end p-3" style="width: 18rem;">
-                <div class="card w-50">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-1 text-body-secondary">Card subtitle</h6>
-                    </div>
-                </div>
-            </div>
+            each cour in course
+                if cour.coursename == title
+                    iframe(class="m-2 d-flex justify-content-start rounded" width="702" height="400" src= cour.link title="Web Applications for Everybody Course - Dr. Chuck Teaches HTML, PHP, SQL, CSS, JavaScript, and more!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen)
+                    .card-body.w-50.d-flex.justify-content-end.p-3(style="width: 18rem;")
+                        .card.w-50 
+                            .card-body 
+                                h5.card-title= cour.title
+                                h6.card-subtitle.mb-1.text-body-secondary= cour.subtitle
         #disqus-wrapper.rounded-2
             #disqus_thread
                 p
                 script 
                     include disqus.js
 
-            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-
-
-        
+            
