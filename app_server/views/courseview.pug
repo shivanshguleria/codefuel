@@ -1,14 +1,14 @@
 extends layout 
 
 block content 
-    .p-4.m-3.bg-body-tertiary.rounded-2
+    .p-4.m-3.bg-body-tertiary.rounded-2.w-80
       .container-fluid
         .d-flex.flex-row.m-3.justify-content-between
             each cour in course
                 if cour.coursename == title
                     iframe(class="m-2 d-flex justify-content-start rounded" width="702" height="400" src= cour.link title="Web Applications for Everybody Course - Dr. Chuck Teaches HTML, PHP, SQL, CSS, JavaScript, and more!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen)
-                    .card-body.w-50.d-flex.justify-content-end.p-3(style="width: 18rem;")
-                        .card.w-50 
+                    .card-body.d-flex.justify-content-end
+                        .card.w-75 
                             .card-body 
                                 h5.card-title= cour.title
                                 h6.card-subtitle.mb-1.text-body-secondary= cour.subtitle

@@ -6,42 +6,42 @@ const index = function(req, res, next) {
         title: "Zustand React State Management",
         author: "By Freecodecamp",
         body: "Learn Zustand in this full course for beginners. Zustand is a minimalistic state management library for React, offering a simpler API compared to Redux. ",
-        link: "#",
+        link: "./courseview/ZustandReactStateManagement",
         time: "1 hrs",
         thumbnail: "https://i.ibb.co/s25K9qN/reactstatemanaagement.jpg"
       },{
         title: "JavaScript and the HTML DOM ",
         author: "By Beau Teaches",
         body: "JavaScript allows you to select elements from the DOM of a website and then make changes to those elements.This video covers getElementById, getElementsByClassName, getElementsByTagName, QuerySelector, querySelectorAll, innerHTML, and textContent",
-        link: "https://www.youtube.com/watch?v=eaLKqoB9Fu0&list=PLWKjhJtqVAbllLK6r2dnGjUVWB_cFNcuO",
+        link: "./courseview/react",
         time: "11 Videos | 1hrs",
         thumbnail: "https://i.ibb.co/d75h1FH/jsdom.png"
       },{
         title: "OpenCV Python Tutorials",
         author: "By Tech With Tim",
         body: "Welcome to a brand new series on OpenCV and Python. I'll start this episode with a quick introduction to OpenCV, in case some of your aren't familiar with it. I'll also talk about how to install OpenCV, loading an image into OpenCV, as well as manipulating an image within OpenCV.",
-        link: "https://www.youtube.com/watch?v=qCR2Weh64h4&list=PLzMcBGfZo4-lUA8uGjeXhBUUzPYc6vZRn",
+        link: "./courseview/OpenCVPythonTutorial",
         time: "8 videos | 2hrs",
         thumbnail: "https://i.ytimg.com/vi/qCR2Weh64h4/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBL9Ypa2c7PTfgYkBOmVc1JT8YHSA"
       },{
         title: "Learn Angular",
         author: "By FreeCodecamp",
         body: "Learn about Angular 6 (and above) in this complete course. You will learn how to create small/medium/large applications with Angular 6 in this web development tutorial.",
-        link: "https://www.youtube.com/watch?v=2OHbjep_WjQ&list=PLWKjhJtqVAblNvGKk6aQVPAJHxrRXxHTs",
+        link: "./courseview/LearnAngular",
         time: "8 videos | 8 Hrs",
         thumbnail: "https://i.ibb.co/b36fGSJ/angular.png"
       },{
         title: "Deep Learning with PyTorch",
         author: "By Freecodecamp",
         body: "“Deep Learning with PyTorch” is a beginner-friendly online course offering a practical and coding-focused introduction to deep learning using the PyTorch framework.",
-        link: "https://www.youtube.com/watch?v=5ioMqzMRFgM&list=PLWKjhJtqVAbm5dir5TLEy2aZQMG7cHEZp",
+        link: "./courseview/PyTorchBasicsandGradientDescent",
         time: "4 videos | 7hrs",
         thumbnail: "https://i.ibb.co/fkRQK7t/pytorchlive.png" 
       },{
         title: "Learn Go Programming - Golang Tutorial for Beginners",
         author: "By Freecodecamp",
         body: "Learn the Go programming language (Golang) in this step-by-step tutorial course for beginners. Go is an open source programming language designed at Google that makes it easy to build simple, reliable, and efficient software.",
-        link: "https://www.youtube.com/watch?v=YS4e4q9oBaU",
+        link: "./courseview/LearnGoProgramming",
         time: "6 hrs",
         thumbnail: "https://i.ibb.co/9skXNV8/golang.png"
       },{
