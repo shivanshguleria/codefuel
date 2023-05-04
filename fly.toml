@@ -1,0 +1,16 @@
+# fly.toml app configuration file generated for codefuel on 2023-05-05T04:53:29+05:30
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "codefuel"
+primary_region = "sin"
+
+[env]
+  PORT = "8080"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
