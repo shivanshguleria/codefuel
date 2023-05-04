@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 const ctrl = require('../controllers/main')
 const ctrlCourse = require("../controllers/courseview");
-const { route } = require('../../app');
+
 /* GET home page. */
 router.get('/', ctrl.index);
 
