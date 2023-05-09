@@ -1,0 +1,29 @@
+extends layout 
+block content 
+  .container.my-5
+    .p-5.mb-4.bg-body-tertiary.rounded-3
+      .text-center.mb-3
+        h1.text-body-emphasis Upload your course here
+      .d-flex.align-items-center.justify-content-center
+        .w-50
+          form(action="/upload" method="post") 
+            .mb-3 
+              label.form-label( for="cname") Course Name
+              input.form-control(type="text" id="cname" name="cname" required) 
+              label.form-label( for="cauthor") Your Name
+              input.form-control(type="text" id= "cauthor" name="cauthor" required) 
+              label.form-label( for="cdisc") Course Description
+              textarea.form-control(name="cdisc" id="cdisc", cols="30", rows="1"  placeholder="Short Discription about your course" required) 
+              label.form-label( for="vidnum") Number of Videos
+              input.form-control(type="number" id="vidnum" name="vidnum" required)
+              label.form-label( for="vidhours") Total number of hours (approximate)
+              input.form-control(type="number" id="vidhours" name="vidhours" required)
+              label.form-label( for="thumbnail") Video Thumbnail
+              input.form-control(type="text" id="thumbnail" name="thumbnail" required)
+              label.form-label( for="link") Video Link (embedded)
+              input.form-control(type="text" id="link" name="link" required)              
+            button.btn.btn-primary(type="submit") Submit
+              
+
+        
+        

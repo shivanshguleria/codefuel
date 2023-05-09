@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  .album.py-5.bg-body-tertiary 
+    .container 
+      .row.row-cols-1.row-cols-sm-2.row-cols-md-3.g-3 
+        each thumbnails in thumbnail
+          -var maxres = function(text){return text.replace(/hqdefault.jpg/g, "maxresdefault.jpg")}
+          .col 
+            .card.shadow-sm 
+              img.bd-placeholder-img.rounded.image-thumbnail(width="100%" height="100%" src= maxres(thumbnails.thumbnail) alt="sd")
+              .card-body 
+                p.card-text= thumbnails.name
+                p.small by #{thumbnails.author}
+                p.card-text= thumbnails.disc
+                .d-flex.justify-content-between.align-items-center
+                  .btn-group 
+                    a.btn.btn-sm.btn-outline-secondary(href= "/courseview/" + thumbnails.name role="button" aria-disabled="true") View
+                  small.text-body-secondary #{thumbnails.hour} hrs | #{thumbnails.num} Videos  

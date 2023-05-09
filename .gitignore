@@ -63,3 +63,5 @@ typings/
 /viewsExamples
 
 /app_server/views/1.pug
+app_server/views/upload1.pug
+app_server/views/.includes

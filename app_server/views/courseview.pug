@@ -1,35 +1,36 @@
 extends layout 
 
 block content 
-    
-      .container-fluid
-        .d-flex.flex-row.m-3.justify-content-between
-            each cour in course
-                if cour.coursename == title
-                    iframe(class="m-2 d-flex justify-content-start rounded" width="942" height="530" src= cour.link title="Web Applications for Everybody Course - Dr. Chuck Teaches HTML, PHP, SQL, CSS, JavaScript, and more!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen)
-                    .card-body.d-flex.justify-content-end
-                        .card.w-75 
-                            .card-body 
-                                h5.card-title= cour.title
-                                h6.card-subtitle.mb-1.text-body-secondary= cour.subtitle
-        .card-body.d-flex.justify-content-end
-          .card.w-100
-            .card-body 
-              .accordion(id="accordionFlushExample")
-                .accordion-item
-                  h2.accordion-header
-                    .accordion.collapsed(type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne")
-                      h5.card-title njnjknn
-                      h6.card-subtitle.mb-1.text-body-secondary duihriu
-                  .accordion-collapse.collapse(data-bs-parent="#accordionFlushExample" id="flush-collapseOne")
-                    .accordion-body 
-                      Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.
-            .container-fluid.w-100.rounded
-              #disqus-wrapper
-                  #disqus_thread
-                      p
-                      script 
-                          include disqus.js
+  .container-fluid
+    .d-flex.flex-row.m-3.justify-content-between
+        each cour in course
+          if cour.name == title
+            - youtubetoembed = function(text){return text.replace("watch?v=", "embed/").replace("&","?")}
+            iframe(class="m-2 d-flex justify-content-start rounded" width="942px" height="530px" src= youtubetoembed(cour.link)  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen)
+            .card-body.d-flex.justify-content-end
+              .card.w-50
+                .card-body 
+                  h5.card-title= cour.name
+                  h6.card-subtitle.mb-1.text-body-secondary= cour.disc
+    .card-body.d-flex.justify-content-end
+      .card.w-100
+        .card-body 
+          .accordion(id="accordionFlushExample")
+            .accordion-item
+              h2.accordion-header
+                .accordion.collapsed(type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne")
+                  h5.card-title njnjknn
+                  h6.card-subtitle.mb-1.text-body-secondary duihriu
+              .accordion-collapse.collapse(data-bs-parent="#accordionFlushExample" id="flush-collapseOne")
+                .accordion-body 
+                  Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.
+        .container-fluid.w-100.rounded
+          #disqus-wrapper
+            #disqus_thread
+                p
+                script 
+                  include disqus.js
 
                   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
                         
