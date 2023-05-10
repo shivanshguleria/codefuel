@@ -6,9 +6,9 @@ block content
         each cour in course
           if cour.name == title
             - youtubetoembed = function(text){return text.replace("watch?v=", "embed/").replace("&","?")}
-            iframe(class="m-2 d-flex justify-content-start rounded" width="942px" height="530px" src= youtubetoembed(cour.link)  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen)
+            iframe(class="m-2 d-flex justify-content-start rounded" width="1700px" height="530px" src= youtubetoembed(cour.link)  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen)
             .card-body.d-flex.justify-content-end
-              .card.w-50
+              .card.w-75
                 .card-body 
                   h5.card-title= cour.name
                   h6.card-subtitle.mb-1.text-body-secondary= cour.disc
