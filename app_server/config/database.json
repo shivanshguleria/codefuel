@@ -1,1 +1,275 @@
-{"course":[{"name":"Zustand React State Management","author":"By Freecodecamp","disc":" Learn Zustand in this full course for beginners. Zustand is a minimalistic state management library for React, offering a simpler API compared to Redux.","num":"1","hour":"1","thumbnail":"https://i.ibb.co/s25K9qN/reactstatemanaagement.jpg","link":"https://www.youtube.com/embed/fZPgBnL2x-Q"},{"name":"JavaScript and the HTML DOM","author":"Beau Teaches","disc":"JavaScript allows you to select elements from the DOM of a website and then make changes to those elements.This video covers getElementById, getElementsByClassName, getElementsByTagName, QuerySelector, querySelectorAll, innerHTML, and textContent","num":"11","hour":"1","thumbnail":"https://i.ibb.co/d75h1FH/jsdom.png","link":"https://www.youtube.com/embed/eaLKqoB9Fu0?list=PLWKjhJtqVAbllLK6r2dnGjUVWB_cFNcuO"},{"name":"OpenCV Python Tutorials","author":"Tech With Tim","disc":"Welcome to a brand new series on OpenCV and Python. I'll start this episode with a quick introduction to OpenCV, in case some of your aren't familiar with it. I'll also talk about how to install OpenCV, loading an image into OpenCV, as well as manipulating an image within OpenCV.","num":"8","hour":"2","thumbnail":"https://i.ytimg.com/vi/qCR2Weh64h4/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBL9Ypa2c7PTfgYkBOmVc1JT8YHSA","link":"https://www.youtube.com/embed/qCR2Weh64h4?list=PLzMcBGfZo4-lUA8uGjeXhBUUzPYc6vZRn"},{"name":"Learn Angular","author":"FreeCodecamp","disc":" Learn about Angular 6 (and above) in this complete course. You will learn how to create small/medium/large applications with Angular 6 in this web development tutorial","num":"8","hour":"8","thumbnail":"https://i.ibb.co/b36fGSJ/angular.png","link":"https://youtu.be/2OHbjep_WjQ?list=PLWKjhJtqVAblNvGKk6aQVPAJHxrRXxHTs"},{"name":"Deep Learning with PyTorch","author":"Freecodecamp","disc":" “Deep Learning with PyTorch” is a beginner-friendly online course offering a practical and coding-focused introduction to deep learning using the PyTorch framework.","num":"4","hour":"7","thumbnail":"https://i.ibb.co/fkRQK7t/pytorchlive.png","link":"https://youtu.be/5ioMqzMRFgM?list=PLWKjhJtqVAbm5dir5TLEy2aZQMG7cHEZp"},{"name":"Learn Go Programming - Golang Tutorial for Beginners","author":"Freecodecamp","disc":" Learn the Go programming language (Golang) in this step-by-step tutorial course for beginners. Go is an open source programming language designed at Google that makes it easy to build simple, reliable, and efficient software.","num":"1","hour":"6","thumbnail":"https://i.ibb.co/9skXNV8/golang.png","link":"https://www.youtube.com/embed/YS4e4q9oBaU"},{"name":"C Programming Tutorial for Beginners","author":"Freecodecamp","disc":" This course will give you a full introduction into all of the core concepts in the C programming language.","num":"8","hour":"31","thumbnail":"https://i.ibb.co/kJK6fB1/cpp31.png","link":"https://www.youtube.com/watch?v=KJgsSFOSQv0&list=PLWKjhJtqVAbmUE5IqyfGYEYjrZBYzaT4m"},{"name":"APIs for Beginners","author":"Freecodecamp","disc":" What is an API? Learn all about APIs in this full tutorial for beginners.","num":"1","hour":"3","thumbnail":"https://i.ibb.co/5Fc5Y6K/apinew.png","link":"https://www.youtube.com/watch?v=WXsD0ZgxjRw&t=5s"},{"name":"Web Applications for Everybody Course","author":"Dr Chuck","disc":" This beginner's course is a complete introduction to web application development.","num":"1","hour":"14","thumbnail":"https://i.ibb.co/8Nxxtsr/wa4e3.png","link":"https://www.youtube.com/watch?v=xr6uZDRTna0"},{"name":"MEAN Stack CRUD Operations - Beginners Tutorial","author":"Freecodecamp","disc":" This MEAN stack beginners tutorial shows how to implement CRUD operations from scratch using the MEAN Stack. The app is created using MongoDB, Express, Node.JS and Angular 5.","num":"1","hour":"1","thumbnail":"https://i.ytimg.com/vi/fhRdqbEXp9Y/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC8u74JnvU0yp8lwAQTUuPTUVer5A","link":"https://www.youtube.com/watch?v=fhRdqbEXp9Y&list=PLWKjhJtqVAblNvGKk6aQVPAJHxrRXxHTs&index=2&pp=iAQB"},{"name":"Linux Server Course - System Configuration and Operation","author":"Freecodecamp","disc":" Linux has long been a favorite operating system for server administration because it’s a secure open-source O.S. that’s able to be both stable and flexible.\r\n\r\nThis course will teach you how to configure servers running the Linux operating system, including the boot process, kernel modules, network connection parameters, and localization groups.","num":"1","hour":"5","thumbnail":"https://i.ytimg.com/vi/WMy3OzvBWc0/hq720.jpg?sqp=-oaymwEcCK4FEIIDSEbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDauhwlr3K2v8m8JVcqMAq6meawFw","link":"https://m.youtube.com/watch?v=WMy3OzvBWc0"},{"name":"Data Structures - Full Course Using C and C++","author":"Animesh Nayan , Suryanarayana","disc":" Learn about data structures in this comprehensive course. We will be implementing these data structures in C or C++.  \r\n\r\nYou should have a good understanding of pointers in C for this course.","num":"1","hour":"10","thumbnail":"https://i.ytimg.com/vi/B31LgI4Y4DQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD628zYU1AQS-DSqEY0cL0uRtPUqA","link":"https://www.youtube.com/watch?v=B31LgI4Y4DQ"},{"name":" SQL Tutorial For Beginners ","author":"Vineet Chaturvedi","disc":" This Edureka SQL Full Course video will cover all the topics of Structured Query Language (SQL) starting from scratch. This SQL tutorial for beginners is great for beginners who want to learn SQL and for professionals who want to brush up on their SQL skills.","num":"1","hour":"10","thumbnail":"https://i.ytimg.com/vi/q_JsgpiuY98/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAWsi4kCXp4pqE-zGgGodukwR1acQ","link":"https://www.youtube.com/watch?v=q_JsgpiuY98"}]}
+{
+    "course": [
+        {
+            "name": "Zustand React State Management",
+            "author": "By Freecodecamp",
+            "disc": " Learn Zustand in this full course for beginners. Zustand is a minimalistic state management library for React, offering a simpler API compared to Redux.",
+            "num": "1",
+            "hour": "1",
+            "thumbnail": "https://i.ytimg.com/vi/fZPgBnL2x-Q/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAyTHQe3bGT5RMP3nc0sseDmBWZdg",
+            "link": "https://www.youtube.com/embed/fZPgBnL2x-Q"
+        },
+        {
+            "name": "JavaScript and the HTML DOM",
+            "author": "Beau Teaches",
+            "disc": "JavaScript allows you to select elements from the DOM of a website and then make changes to those elements.This video covers getElementById, getElementsByClassName, getElementsByTagName, QuerySelector, querySelectorAll, innerHTML, and textContent",
+            "num": "11",
+            "hour": "1",
+            "thumbnail": "https://i.ibb.co/d75h1FH/jsdom.png",
+            "link": "https://www.youtube.com/embed/eaLKqoB9Fu0?list=PLWKjhJtqVAbllLK6r2dnGjUVWB_cFNcuO"
+        },
+        {
+            "name": "OpenCV Python Tutorials",
+            "author": "Tech With Tim",
+            "disc": "Welcome to a brand new series on OpenCV and Python. I'll start this episode with a quick introduction to OpenCV, in case some of your aren't familiar with it. I'll also talk about how to install OpenCV, loading an image into OpenCV, as well as manipulating an image within OpenCV.",
+            "num": "8",
+            "hour": "2",
+            "thumbnail": "https://i.ytimg.com/vi/qCR2Weh64h4/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBL9Ypa2c7PTfgYkBOmVc1JT8YHSA",
+            "link": "https://www.youtube.com/embed/qCR2Weh64h4?list=PLzMcBGfZo4-lUA8uGjeXhBUUzPYc6vZRn"
+        },
+        {
+            "name": "Learn Angular",
+            "author": "FreeCodecamp",
+            "disc": " Learn about Angular 6 (and above) in this complete course. You will learn how to create small/medium/large applications with Angular 6 in this web development tutorial",
+            "num": "8",
+            "hour": "8",
+            "thumbnail": "https://i.ibb.co/b36fGSJ/angular.png",
+            "link": "https://youtu.be/2OHbjep_WjQ?list=PLWKjhJtqVAblNvGKk6aQVPAJHxrRXxHTs"
+        },
+        {
+            "name": "Deep Learning with PyTorch",
+            "author": "Freecodecamp",
+            "disc": " “Deep Learning with PyTorch” is a beginner-friendly online course offering a practical and coding-focused introduction to deep learning using the PyTorch framework.",
+            "num": "4",
+            "hour": "7",
+            "thumbnail": "https://i.ibb.co/fkRQK7t/pytorchlive.png",
+            "link": "https://youtu.be/5ioMqzMRFgM?list=PLWKjhJtqVAbm5dir5TLEy2aZQMG7cHEZp"
+        },
+        {
+            "name": "Learn Go Programming - Golang Tutorial for Beginners",
+            "author": "Freecodecamp",
+            "disc": " Learn the Go programming language (Golang) in this step-by-step tutorial course for beginners. Go is an open source programming language designed at Google that makes it easy to build simple, reliable, and efficient software.",
+            "num": "1",
+            "hour": "6",
+            "thumbnail": "https://i.ibb.co/9skXNV8/golang.png",
+            "link": "https://www.youtube.com/embed/YS4e4q9oBaU"
+        },
+        {
+            "name": "C Programming Tutorial for Beginners",
+            "author": "Freecodecamp",
+            "disc": " This course will give you a full introduction into all of the core concepts in the C programming language.",
+            "num": "8",
+            "hour": "31",
+            "thumbnail": "https://i.ytimg.com/vi/KJgsSFOSQv0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDDsp4OZGq1EDew-LjA5-ouqOZwGg",
+            "link": "https://www.youtube.com/watch?v=KJgsSFOSQv0&list=PLWKjhJtqVAbmUE5IqyfGYEYjrZBYzaT4m"
+        },
+        {
+            "name": "APIs for Beginners",
+            "author": "Freecodecamp",
+            "disc": " What is an API? Learn all about APIs in this full tutorial for beginners.",
+            "num": "1",
+            "hour": "3",
+            "thumbnail": "https://i.ibb.co/5Fc5Y6K/apinew.png",
+            "link": "https://www.youtube.com/watch?v=WXsD0ZgxjRw&t=5s"
+        },
+        {
+            "id": 1,
+            "name": "Web Applications for Everybody Course",
+            "author": "Dr Chuck",
+            "disc": " This beginner's course is a complete introduction to web application development.",
+            "num": "1",
+            "hour": "14",
+            "thumbnail": "https://i.ibb.co/8Nxxtsr/wa4e3.png",
+            "link": "https://www.youtube.com/watch?v=xr6uZDRTna0"
+        },
+        {
+            "name": "MEAN Stack CRUD Operations - Beginners Tutorial",
+            "author": "Freecodecamp",
+            "disc": " This MEAN stack beginners tutorial shows how to implement CRUD operations from scratch using the MEAN Stack. The app is created using MongoDB, Express, Node.JS and Angular 5.",
+            "num": "1",
+            "hour": "1",
+            "thumbnail": "https://i.ytimg.com/vi/fhRdqbEXp9Y/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLC8u74JnvU0yp8lwAQTUuPTUVer5A",
+            "link": "https://www.youtube.com/watch?v=fhRdqbEXp9Y&list=PLWKjhJtqVAblNvGKk6aQVPAJHxrRXxHTs&index=2&pp=iAQB"
+        },
+        {
+            "name": "Linux Server Course - System Configuration and Operation",
+            "author": "Freecodecamp",
+            "disc": " Linux has long been a favorite operating system for server administration because it’s a secure open-source O.S. that’s able to be both stable and flexible.\r\n\r\nThis course will teach you how to configure servers running the Linux operating system, including the boot process, kernel modules, network connection parameters, and localization groups.",
+            "num": "1",
+            "hour": "5",
+            "thumbnail": "https://i.ytimg.com/vi/WMy3OzvBWc0/hq720.jpg?sqp=-oaymwEcCK4FEIIDSEbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDauhwlr3K2v8m8JVcqMAq6meawFw",
+            "link": "https://m.youtube.com/watch?v=WMy3OzvBWc0"
+        },
+        {
+            "name": "Data Structures - Full Course Using C and C++",
+            "author": "Animesh Nayan , Suryanarayana",
+            "disc": " Learn about data structures in this comprehensive course. We will be implementing these data structures in C or C++.  \r\n\r\nYou should have a good understanding of pointers in C for this course.",
+            "num": "1",
+            "hour": "10",
+            "thumbnail": "https://i.ytimg.com/vi/B31LgI4Y4DQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD628zYU1AQS-DSqEY0cL0uRtPUqA",
+            "link": "https://www.youtube.com/watch?v=B31LgI4Y4DQ"
+        },
+        {
+            "name": "SQL Tutorial For Beginners",
+            "author": "Vineet Chaturvedi",
+            "disc": "This Edureka SQL Full Course video will cover all the topics of Structured Query Language (SQL) starting from scratch. This SQL tutorial for beginners is great for beginners who want to learn SQL and for professionals who want to brush up on their SQL skills.",
+            "num": "1",
+            "hour": "10",
+            "thumbnail": "https://i.ytimg.com/vi/q_JsgpiuY98/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAWsi4kCXp4pqE-zGgGodukwR1acQ",
+            "link": "https://www.youtube.com/watch?v=q_JsgpiuY98"
+        },
+        {
+            "name": "MongoDb Tutorial For Beginners",
+            "author": "Harry ",
+            "disc": " MongoDB crash course: In this video, we will see the MongoDB NoSQL database in Hindi very closely. I have included a cheat sheet with this course which makes it easy for you to understand MongoDB.",
+            "num": "1",
+            "hour": "1",
+            "thumbnail": "https://i.ytimg.com/vi/oSIv-E60NiU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCeUnZRZXsKOpQUmqaFu3dGqPE3Uw",
+            "link": "https://www.youtube.com/watch?v=oSIv-E60NiU"
+        },
+        {
+            "name": "Pygame in 90 Minutes - For Beginners",
+            "author": "Tim",
+            "disc": " In this Pygame for beginners video, we'll be making a game in about 90 minutes. The video is  going to cover a lot of stuff about Pygame , including sound effects, images, moving objects, collision, most of the fundamental things you need to make a basic game. We'll be making a simple 2 player game to showcase how everything works in Pygame in python.\r\n",
+            "num": "1",
+            "hour": "2",
+            "thumbnail": "https://i.ytimg.com/vi/jO6qQDNa2UY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDxvsMHVruYQGbjyfOHBBUYWZLDdA",
+            "link": "https://www.youtube.com/watch?v=jO6qQDNa2UY"
+        },
+        {
+            "name": "Node.js and Express.js - Full Course",
+            "author": "Quincy Larson",
+            "disc": " Learn how to use Node and Express in this comprehensive course. First, you will learn the fundamentals of Node and Express. Then, you will learn to build a complex Rest API. Finally, you will build a MERN app and other Node projects.",
+            "num": "1",
+            "hour": "8",
+            "thumbnail": "https://i.ytimg.com/vi/Oe421EPjeBE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDgCDSpAmDl1IAEM1sfyLP7oQ8g2g",
+            "link": "https://www.youtube.com/watch?v=Oe421EPjeBE"
+        },
+        {
+            "name": "Scrapy Course – Python Web Scraping for Beginners",
+            "author": "Freecodecamp",
+            "disc": " The Scrapy Beginners Course will teach you everything you need to learn to start scraping websites at scale using Python Scrapy.\r\nThe course covers:\r\n- Creating your first Scrapy spider\r\n- Crawling through websites & scraping data from each page\r\n- Cleaning data with Items & Item Pipelines",
+            "num": "1",
+            "hour": "5",
+            "thumbnail": "https://i.ytimg.com/vi/mBoX_JCKZTE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCdC7RK-GGAQoTZleFs3tMq6XcR0Q",
+            "link": "https://www.youtube.com/watch?v=mBoX_JCKZTE"
+        },
+        {
+            "name": "Django Tutorial",
+            "author": "Harry ",
+            "disc": " Python Django Tutorial for Beginners - Learn Django for a career in back-end development.  This Django tutorial teaches you everything you need to get started.",
+            "num": "1",
+            "hour": "3",
+            "thumbnail": "https://i.ytimg.com/vi/JxzZxdht-XY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBeu8n_oluA3zzhLz7BcM1Zp-Xwzw",
+            "link": "https://www.youtube.com/watch?v=JxzZxdht-XY"
+        },
+        {
+            "name": "Machine Learning Course for Beginners",
+            "author": "Freecodecamp",
+            "disc": " Learn the theory and practical application of machine learning concepts in this comprehensive course for beginners.",
+            "num": "1",
+            "hour": "10",
+            "thumbnail": "https://i.ytimg.com/vi/NWONeJKn6kc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDUXO_HqgYZLXwn3TeWSBafYYqyug",
+            "link": "https://www.youtube.com/watch?v=NWONeJKn6kc"
+        },
+        {
+            "name": "PHP Programming Language Tutorial",
+            "author": "Freecodecamp",
+            "disc": " Learn the PHP programming language in this full course / tutorial. The course is designed for new programmers, and will introduce common programming topics using the PHP language.\r\n",
+            "num": "1",
+            "hour": "5",
+            "thumbnail": "https://i.ytimg.com/vi/OK_JCtrrv-c/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDJFYYIVzU6x7-B_W7kDJtxUrUz4Q",
+            "link": "https://www.youtube.com/watch?v=OK_JCtrrv-c"
+        },
+        {
+            "name": "Web Development with Python Tutorial – Flask & Dynamic Database-Driven Web Apps",
+            "author": "Freecodecamp",
+            "disc": " Learn how to develop Dynamic Database-Driven Web Apps with Python, Flask, and MySQL. This course is broken up into two parts. In part one, you will learn how to build and deploy a site using the Flask Python web framework. In part two, you will connect the Flask application from the first part to a cloud MySQL database and learn how to deploy a production-ready database-driven web application.",
+            "num": "1",
+            "hour": "5",
+            "thumbnail": "https://i.ytimg.com/vi/yBDHkveJUf4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAOUKIj2l4go-5a-cYuuwiulgghOA",
+            "link": "https://www.youtube.com/watch?v=yBDHkveJUf4"
+        },
+        {
+            "name": "Java Tutorial for Beginners",
+            "author": "Apna college",
+            "disc": "  you need enterprise-grade software, then one language you can consider blindfolded is Java.\r\n\r\nWhere Java is used? It is a backend language used for programming apps for Android, desktop systems, and some other applications.",
+            "num": "1",
+            "hour": "2",
+            "thumbnail": "https://i.ytimg.com/vi/UmnCZ7-9yDY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDgSWSsKRPnT73AnzYCsRGDI5LpMQ",
+            "link": "https://www.youtube.com/watch?v=UmnCZ7-9yDY"
+        },
+        {
+            "name": "Learn Ruby on Rails",
+            "author": "Freecodecamp",
+            "disc": "Learn Ruby on Rails in this full course for beginners. Ruby on Rails is a is a server-side web application framework used for creating full stack web apps.",
+            "num": "1",
+            "hour": "4",
+            "thumbnail": "https://i.ytimg.com/vi/fmyvWz5TUWg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDgX3yZHmW-zSj3TYsp3HIsIEp5pA",
+            "link": "https://www.youtube.com/watch?v=fmyvWz5TUWg"
+        },
+        {
+            "name": "Data Science For Beginners",
+            "author": "Vineet Chaturvedi",
+            "disc": " This  Data Science Full Course video will help you understand and learn Data Science Algorithms in detail. This Data Science Tutorial is ideal for both beginners as well as professionals who want to master Data Science Algorithms. ",
+            "num": "1",
+            "hour": "12",
+            "thumbnail": "https://i.ibb.co/Qkp2dLv/hqdefault.jpg",
+            "link": "https://www.youtube.com/watch?v=xiEC5oFsq2s"
+        },
+        {
+            "name": "Machine Learning Full Course",
+            "author": "Vineet Chaturvedi",
+            "disc": "This  Machine Learning Full Course video will help you understand and learn Machine Learning Algorithms in detail. This Machine Learning Tutorial is ideal for both beginners as well as professionals who want to master Machine Learning Algorithms.",
+            "num": "1",
+            "hour": "10",
+            "thumbnail": "https://i.ytimg.com/vi/GwIo3gDZCVQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCEr8qd7Nm1isQJ6f5DomlI7Eme8w",
+            "link": "https://www.youtube.com/watch?v=GwIo3gDZCVQ"
+        },
+        {
+            "name": "TensorFlow 2.0 Complete Course - Python Neural Networks for Beginners Tutorial",
+            "author": "Freecodecamp",
+            "disc": "Learn how to use TensorFlow 2.0 in this full tutorial course for beginners. This course is designed for Python programmers looking to enhance their knowledge and skills in machine learning and artificial intelligence. \r\n\r\nThroughout the 8 modules in this course you will learn about fundamental concepts and methods in ML & AI like core learning algorithms, deep learning with neural networks, computer vision with convolutional neural networks, natural language processing with recurrent neural networks, and reinforcement learning.\r\n",
+            "num": "1",
+            "hour": "7",
+            "thumbnail": "https://i.ytimg.com/vi/tPYj3fFJGjk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAK8aK9-f9aE0_QqayH3ag4pD3-4g",
+            "link": "https://www.youtube.com/watch?v=tPYj3fFJGjk"
+        },
+        {
+            "name": "Keras Tutorial For Beginners",
+            "author": "Simplilearn",
+            "disc": " This Keras full course will helo you understand what is Keras, the working principle of Keras, Keras models, what are neural networks along with the hands-on projects. We will have look at a project where we detect whether a person is wearing a mask or not.",
+            "num": "1",
+            "hour": "3",
+            "thumbnail": "https://i.ytimg.com/vi/0skIU_Icwdw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDczDbAEGgQCbOt_A6P5uOzqbPHAA",
+            "link": "https://www.youtube.com/watch?v=0skIU_Icwdw"
+        },
+        {
+            "name": "Scikit-learn Crash Course - Machine Learning Library for Python",
+            "author": "Freecodecamp",
+            "disc": "Scikit-learn is a free software machine learning library for the Python programming language. Learn how to use it in this crash course.",
+            "num": "1",
+            "hour": "2",
+            "thumbnail": "https://i.ytimg.com/vi/0B5eIE_1vpU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAkP6UBasT-96SNfOMUiATMzgCyrw",
+            "link": "https://www.youtube.com/watch?v=0B5eIE_1vpU"
+        },
+        {
+            "name": "Swift Programming Tutorial – Full Course for Beginners",
+            "author": "Freecodecamp",
+            "disc": "Learn the Swift programming language in this full tutorial for beginners. \r\nIn this video, we will go through every modern aspect of Swift as a programming language including, variables, constants, functions, structures, classes, protocols. extensions, asynchronous programming, generics and much more. This video will lay the foundation for learning Swift for those who are not familiar with Swift already.\r\n",
+            "num": "1",
+            "hour": "7",
+            "thumbnail": "https://i.ytimg.com/vi/8Xg7E9shq0U/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjyxWRofE146CfGLNmhig720wz3Q",
+            "link": "https://www.youtube.com/watch?v=8Xg7E9shq0U"
+        },
+        {
+            "name": "Kotlin Tutorial for Beginners",
+            "author": "Telusko",
+            "disc": "To create android projects using kotlin along with java for beginners.",
+            "num": "1",
+            "hour": "5",
+            "thumbnail": "https://i.ytimg.com/vi/I6rkwJed-HY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBeNeIZgEyQj0JoA6LqQCQRlaOhKw",
+            "link": "https://www.youtube.com/watch?v=I6rkwJed-HY"
+        }
+    ]
+}

@@ -5,7 +5,7 @@ const index = function(req, res, next) {
       thumbnail: data.course
     });
   };
-
+console.log(data.course.length)
 const catalog = function(req, res) {
   res.render('view-course', {
     title: "catalog",
@@ -33,12 +33,9 @@ const about = function(req, res, next) {
     res.render('about', { title: 'About' });
   };
 
-const future = function(req, res, next) {
-    res.render('index', { title: 'Express' });
-  };
 
 const contactus = function(req, res, next) {
-    res.render('index', { title: 'Express' });
+    res.render('contactus', { title: 'Contact us' });
   };
 
 
@@ -50,5 +47,5 @@ const upload = function(req, res, next) {
 
 
 module.exports = {
-    index, users, course, review, about, future, contactus,  upload, catalog
+    index, users, course, review, about,  contactus,  upload, catalog
 }

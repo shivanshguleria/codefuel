@@ -1,17 +1,27 @@
 extends layout 
 
 block content 
-  .container-fluid
-    .d-flex.flex-row.m-3.justify-content-between
-        each cour in course
-          if cour.name == title
-            - youtubetoembed = function(text){return text.replace("watch?v=", "embed/").replace("&","?")}
-            iframe(class="m-2 d-flex justify-content-start rounded" width="1700px" height="530px" src= youtubetoembed(cour.link)  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen)
-            .card-body.d-flex.justify-content-end
-              .card.w-75
-                .card-body 
-                  h5.card-title= cour.name
-                  h6.card-subtitle.mb-1.text-body-secondary= cour.disc
+  .container-fluid.justify-content-between
+    each cour in course
+      if cour.name == title
+        .d-flex.flex-row.justify-content-between.mb-3.flex-wrap
+          - youtubetoembed = function(text){return text.replace("watch?v=", "embed/").replace("&","?")}
+          iframe(class="me-2 mx-2 my-2 rounded flex-fill"  width = "932" height="532" src= youtubetoembed(cour.link)  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen)
+          .card.h-75.flex-wrap-row(style="width: 24rem;")
+            .card-body
+              h5.card-titled= cour.name
+              h6.card-subtitle.mb-2.text-body-secondary By #{cour.author}
+              p.card-text= cour.disc
+            .card.h-50.flex-wrap-row(style="width: 24rem;")
+            .card-body 
+              h5.card-title Claim Certificate 
+              form(action="/claimcertificate" method="post")
+                input.small.form-control(type="hidden" id="title" name="title" value=title)
+                .mb-3 
+                  label.form-label( for="name") Your Name
+                  input.form-control(type="text" id="name" name="name" required) 
+                button.btn.btn-primary.mt-1.my-2(type="submit") Claim
+              a.card-link(href="/courseview/#{title}") Share Course
     .card-body.d-flex.justify-content-end
       .card.w-100
         .card-body 
@@ -19,18 +29,28 @@ block content
             .accordion-item
               h2.accordion-header
                 .accordion.collapsed(type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne")
-                  h5.card-title njnjknn
-                  h6.card-subtitle.mb-1.text-body-secondary duihriu
+                  h5.card-title.mx-2 View More
+                  h6.card-subtitle.mb-1.ms-1.text-body-secondary &nbsp;
               .accordion-collapse.collapse(data-bs-parent="#accordionFlushExample" id="flush-collapseOne")
                 .accordion-body 
-                  Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.
+                  .overflow-x-scroll 
+                    .d-inline-flex.flex-row
+                      each cour in course
+                        .card.mx-1.my-1(style="width: 20rem;")
+                          a(href= "/courseview/" + cour.name) 
+                            img.card-img-top(src=cour.thumbnail )
+                          .card-body
+                            h6.card-title  #{cour.name}
+                            p.card-subtitle By #{cour.author}
+                            .d-flex.justify-content-start
+                              small.text-body-secondary #{cour.hour} hrs | #{cour.num} Videos
         .container-fluid.w-100.rounded
           #disqus-wrapper
             #disqus_thread
-                p
-                script 
-                  include disqus.js
+              p
+              script 
+                include disqus.js
 
-                  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    
-                        
+              <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  
+                      
