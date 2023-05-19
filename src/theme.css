@@ -1,0 +1,18 @@
+nav {
+    background-color: #4A66AC;
+    width:max-content;
+}
+
+.nav-top {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+button {
+    color: white;
+    background-color: white;
+    border: 2px solid #4A66AC;
+}
+
+
