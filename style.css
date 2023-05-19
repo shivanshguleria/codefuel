@@ -1,0 +1,262 @@
+@charset "utf-8"; /****   Developed by http://www.freetimelearning.com/    *****/
+*{
+	margin-left:auto;
+	margin-right:auto;
+}
+body{ font-family:Arial, Helvetica, sans-serif; background:#FFF; margin:0px;}
+.m30_auto{ margin:30px auto;}
+.clearfix{ clear:both;}
+.main{width: 1024px;}
+
+/*********** Start Header (or) Menu **********/
+.header{width:1024px; float:left; border-top:7px solid #4a65a7; background:#F2F2F2;}
+.header-left{ width:250px; float:left;}
+.header-right{ 	width:774px; float:left;}
+.header-right ul{list-style:none;}
+.header-right ul li{
+	list-style:none; font-family:arial; font-size:14px; padding:5px 0px 15px 0px; 
+	margin:5px 0px 12px; float:left; font-weight:bold;
+}
+.header-right ul li a{ padding:5px 20px 10px; margin:2px 0px 5px; text-decoration:none; color:#000;}
+.header-right ul li a:hover{ color:#4a65a7;}
+/*********** End Header (or) Menu **********/
+	
+/************* Start Slider (or) Banner *************/
+.banner{ width:1024px; background:url(../imges/slider-bg.jpg); height:293px; float:left; }
+.banner-links{ font-family:Arial, Helvetica, sans-serif; padding:145px 20px 50px;}
+.banner-links a{font-size:26px; padding:0px 20px; text-decoration:none; color:#000; font-weight:600;}
+.banner-links a:hover{ color:#fff;}
+/************** End Slider (or) Banner *************/
+
+/*************** Start Content *****************/	
+.content{ width:1022px; height:auto; border:1px solid #CCC; float:left; padding-bottom:20px;}
+.content-left{ width:458px; height:auto; float:left; text-align:justify; padding:0px 20px; line-height:24px;}
+.content-right{ width:440px; height:auto; float:left; padding:0px 20px 0px 60px;}
+.content-header{color:#000; font-size:26px; text-align:center; padding:25px 10px 15px;}
+.content-header a{ color:#4a65a7; text-decoration:none;}
+.content-header a:hover{ color:#4a65a7;}
+
+.content-bottom-boxes{ width:300px; float:left; padding:0px 20px; color:#000;}
+.content-bottom-bg{ background:#ebebeb; float:left; padding:20px 15px;}
+.content-bottom-bg-header{ font-size:18px; padding-bottom:15px;}
+.content-bottom-bg-p{ line-height:24px;}
+/************ End Content **************/
+
+/************ Start Testimonials ************/
+.testimonials{ width:1024px; background:url(../imges/testimonials-bg.jpg); height:309px; float:left; }
+.testimonials-h4{ font-size:26px; line-height:46px; padding:80px 100px; color:#020202; text-align:center;}
+.testimonials a{ color:#CCC; font-size:18px; padding:20px 0px; text-align:center; text-decoration:none;}
+.testimonials a:hover{ color:#FFF;}
+/************ End Testimonials ************/
+
+/************ Start Footer *****************/
+#footer{ width:1024px; float:left; background:#CCC;}
+.footer-parts{ width:300px; float:left; padding:0px 20px;}
+.footer-parts-h4{ font-size:18px; padding:15px 10px 0px;}
+.footer-parts ul{list-style:none; padding:0px;}
+.footer-parts ul li{list-style:none; font-size:12px; padding:5px; margin:5px 0px; font-weight:bold;}
+.footer-parts ul li a{padding:8px 10px; margin:2px 0px; text-decoration:none; color:#000;}
+.footer-parts ul li a:hover{color:#FFF;}
+.copyrights{ width:964px; font-size:12px; background:#4a65a7; float:left; padding:15px 30px 15px 30px; color:#FFF; }
+.copyrights-left{ width:664px; float:left;}
+.copyrights-left a{ color:#FFF; text-decoration:none;}
+.copyrights-left a:hover{color:#CCC;}
+.copyrights-right{ width:300px; float:left; text-align:right;}
+.copyrights-right a{ color:#FFF; text-decoration:none;}
+.copyrights-right a:hover{color:#CCC;}
+/*************** End Footer ***********/
+
+
+
+
+
+
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+	background-color: #4a65a7;
+	color: white;
+	padding: 10px 20px;
+	margin: -5px;
+   
+	border: none;
+	cursor: pointer;
+	width: 100%;
+  }
+  
+  button:hover {
+	opacity: 0.8;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+	width: auto;
+	padding: 10px 18px;
+	background-color: #f44336;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+	text-align: center;
+	margin: 24px 0 12px 0;
+	position: relative;
+  }
+  
+  img.avatar {
+	width: 40%;
+	border-radius: 50%;
+  }
+  
+  .container {
+	padding: 16px;
+  }
+  
+  span.psw {
+	float: right;
+	padding-top: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+	background-color: #fefefe;
+	margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+	border: 1px solid #888;
+	width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button (x) */
+  .close {
+	position: absolute;
+	right: 25px;
+	top: 0;
+	color: #000;
+	font-size: 35px;
+	font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: red;
+	cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+	-webkit-animation: animatezoom 0.6s;
+	animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+	from {-webkit-transform: scale(0)} 
+	to {-webkit-transform: scale(1)}
+  }
+	
+  @keyframes animatezoom {
+	from {transform: scale(0)} 
+	to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+	span.psw {
+	   display: block;
+	   float: none;
+	}
+	.cancelbtn {
+	   width: 100%;
+	}
+  }
+
+
+
+
+  #main-holder {
+    width: 50%;
+    height: 70%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 2px black;
+  }
+  
+  #login-error-msg-holder {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  #login-error-msg {
+    width: 23%;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #8a0000;
+    border: 1px solid #8a0000;
+    background-color: #e58f8f;
+    opacity: 0;
+  }
+  
+  #error-msg-second-line {
+    display: block;
+  }
+  
+  #login-form {
+    align-self: flex-start;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .login-form-field::placeholder {
+    color: #3a3a3a;
+  }
+  
+  .login-form-field {
+    border: none;
+    border-bottom: 1px solid #4a65a7;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    outline: none;
+    padding: 0px 0px 5px 5px;
+  }
+  
+  #login-form-submit {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #4a65a7;
+    cursor: pointer;
+    outline: none;
+  }
